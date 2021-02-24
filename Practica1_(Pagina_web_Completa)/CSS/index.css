@@ -1,6 +1,7 @@
 
 *{
     margin: 0;
+    box-sizing: border-box; 
 }
 
 header{
@@ -12,4 +13,52 @@ h1{
     text-align: center;
     color: white;
     font-size: 50px;
+}
+
+.container{
+    height: 85vh;
+    
+}
+
+aside{
+    height: 100vh;
+    background: #cccccc;
+    width: 25%;
+    padding-top: 15%;
+    float: left;
+}
+
+/*Afectara a todos los elementos llamados container que existan dentro de
+aside*/
+aside > .contenedorLinks{
+    background: #cccccc;
+    height:20% ;
+    width: 80%;
+    margin: auto;
+}
+
+.contenedorLinks > a{
+    display: block;
+    font-size: 30px;
+    color: rgb(8, 128,128);
+    margin: 2px 0px;
+}
+
+section{
+    
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-top: 3%;
+    background: #f1f1f1;
+}
+
+h3{
+    font-size: 60px;    
+    width: 90%;
+    margin: 50% auto;
+}
+
+.textoPrincipal{
+    font-size: 35px;
 }
