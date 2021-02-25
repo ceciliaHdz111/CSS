@@ -10,24 +10,27 @@ section{
 }
 
 .sec1{
-    background: url('./../assets/yourname.jpg');
+    background: url('./../assets/macaroons1.jpg');
     background-repeat: no-repeat;
     background-size: cover;    
     background-position: center center;
+    Background-attachment: fixed
 }
 
 .sec2{
-    background: url('./../assets/yourname.jpg');
+    background: url('./../assets/macaroons2.jpg');
     background-repeat: no-repeat;
     background-size: cover;    
     background-position: center center;
+    Background-attachment: fixed
 }
 
 .sec3{
-    background: url('./../assets/yourname.jpg');
+    background: url('./../assets/macaroons3.jpg');
     background-repeat: no-repeat;
     background-size: cover;    
     background-position: center center;
+    Background-attachment: fixed
 }
 
 .secText{
