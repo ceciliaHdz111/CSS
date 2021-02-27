@@ -19,5 +19,42 @@ div >p{
     position: absolute;
     bottom: 10%;
     left: 5%;
+    color: #f2f2f2;
+}
+
+.forum{
+    position: absolute;
+    right: 90%;
+    top: 20%;
+    font-size: 60px;
+    color: rgb(87, 87, 87);
+}
+
+.text-forum{
+    position: relative;
+    left: 16%;
+    bottom: -66%;
+    font-size: 13px;
+    color: gray;
+}
+
+.titulo{
+    color: #f2f2f2;
+}
+
+.cuadro1{
+    background-color: blueviolet;
+    padding: -2%;
+    
+    left: -75%;
+    right: 80%;
+}
+
+.cuadro2{
+    background-color: rgb(51, 76, 187);
+    padding: -2%;
+    
+    left: -75%;
+    right: 60%;
 }
 
