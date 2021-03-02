@@ -93,7 +93,7 @@ div >p{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background: rgb(138, 66, 93);  
+    background: rgb(131, 60, 145);  
     margin-top: 5px;
     flex-direction: row;
     justify-content: center;
@@ -112,9 +112,9 @@ div >p{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-image: url('./../assets/Captura.JPG');
-    height: 100px;
-    
+    background-image: url('./../assets/megusta.jpg');
+    margin-top: 5px;    
+    background-size: 400px 230px;
     background-repeat: no-repeat;        
     justify-content: center;
 }
@@ -123,40 +123,62 @@ div >p{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background: green;  
+    background: green;
+    background-image: url('./../assets/hoja.JPG');  
     margin-top: 5px;
     flex-direction: row;
     justify-content: center;
 }
 
-.button1 {
-    background-color: rgb(197, 46, 177); 
-    border-radius:  100px; ;
-    color: white;
-    padding: 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 55px 49px;
-    cursor: pointer;
-  }
 
-  .button2 {
-    background-color:rgb(68, 68, 85); 
-    border-radius:  100px; ;
-    color: white;
-    padding: 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 55px 49px;
-    cursor: pointer;
-  }
 
   .menu{
       width: 100%;
-      height: 28%;
+      height: 30%;
   }
 
+  .circle1{
+      border-radius: 50%;
+      border: 5px solid white;
+      width: 125px;
+      height: 125px;
+      background: rgb(224, 90, 191);
+      position: absolute;
+      bottom: 25%;
+      left: 35%;
+      text-align: center;
+      font-size: 18px;
+  }
+
+  .circle2{
+    border-radius: 50%;
+    border: 5px solid rgb(71, 180, 113);
+    width: 125px;
+    height: 125px;
+    background: rgb(59, 54, 58);
+    position: absolute;
+    bottom: 25%;
+    left: 35%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.circle1 > h2{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Helvetica';
+    color: white;
+    position: absolute;
+    bottom: 35%;
+    left: 4%;
+}
+
+.circle1 > h3{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Helvetica' ;
+    color: white;
+    position: absolute;
+    bottom: 28%;
+    left: 5%;
+}
